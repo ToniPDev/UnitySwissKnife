@@ -1,0 +1,38 @@
+namespace Extensions.MathExtensions
+{
+    public enum Ease
+    {
+        EaseInQuad = 0,
+        EaseOutQuad,
+        EaseInOutQuad,
+        EaseInCubic,
+        EaseOutCubic,
+        EaseInOutCubic,
+        EaseInQuart,
+        EaseOutQuart,
+        EaseInOutQuart,
+        EaseInQuint,
+        EaseOutQuint,
+        EaseInOutQuint,
+        EaseInSine,
+        EaseOutSine,
+        EaseInOutSine,
+        EaseInExpo,
+        EaseOutExpo,
+        EaseInOutExpo,
+        EaseInCirc,
+        EaseOutCirc,
+        EaseInOutCirc,
+        Linear,
+        Spring,
+        EaseInBounce,
+        EaseOutBounce,
+        EaseInOutBounce,
+        EaseInBack,
+        EaseOutBack,
+        EaseInOutBack,
+        EaseInElastic,
+        EaseOutElastic,
+        EaseInOutElastic,
+    }
+}

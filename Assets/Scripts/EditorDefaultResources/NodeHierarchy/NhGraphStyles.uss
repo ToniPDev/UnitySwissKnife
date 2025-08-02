@@ -1,0 +1,7 @@
+GridBackground
+{
+    --grid-background-color: var(--nh-colors-grid-light-grey-1);
+    --line-color           : var(--nh-colors-grid-light-grey-2);
+    --tick-line-color      : var(--nh-colors-grid-light-grey-3);
+    --spacing              : var(--nh-metrics-grid-10);
+}
