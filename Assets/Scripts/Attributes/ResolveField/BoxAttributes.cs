@@ -19,10 +19,7 @@ namespace Attributes.ResolveField
         public DarkBoxAttribute()
         { }
 
-        public DarkBoxAttribute(bool withBorders)
-        {
-            this.withBorders = withBorders;
-        }
+        public DarkBoxAttribute(bool withBorders) => this.withBorders = withBorders;
     }
     [Conditional("UNITY_EDITOR")]
     [AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
